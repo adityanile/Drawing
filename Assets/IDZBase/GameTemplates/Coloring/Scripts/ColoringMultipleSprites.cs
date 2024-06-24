@@ -242,6 +242,8 @@ namespace IDZBase.Core.GameTemplates.Coloring
             borderSpriteRenderer.sprite = borderSprite;
             borderSpriteRenderer.sortingOrder = _maskTextureReferences.Count + 1;
 
+            border.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+
             textureFilter.Dispose();
             Destroy(filteredTexture);
 
