@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Aditya/Scenes/Master.unity
+    guid: f9ce034dff536b346ac6d0199bdf0e1c
   m_configObjects: {}
